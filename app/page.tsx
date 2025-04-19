@@ -25,18 +25,73 @@ const foodItems: FoodItem[] = [
     title: "Margherita Pizza",
     description: "Classic Italian pizza with fresh basil",
     price: 14.99,
-    videoUrl: "/videos/pizza.mp4",
+    videoUrl: "/videos/pizza.webm",
     restaurant: "Pizza Italia"
   },
   {
-    id: 2,
-    title: "Smash Burger",
-    description: "Juicy smash burger with melted cheese",
-    price: 10.99,
-    videoUrl: "/videos/burger.mp4",
-    restaurant: "Burger Joint"
+    id: 3,
+    title: "Dim Sum Platter",
+    description: "Assorted steamed dumplings and buns",
+    price: 18.99,
+    videoUrl: "/videos/dimsum.mp4",
+    restaurant: "Golden Dragon"
   },
-  // Add more items as needed
+  {
+    id: 4,
+    title: "Spicy Chicken",
+    description: "Tender chicken with signature spicy sauce",
+    price: 12.99,
+    videoUrl: "/videos/spicy-chicken.mp4",
+    restaurant: "Spice House"
+  },
+  {
+    id: 5,
+    title: "Ramen Bowl",
+    description: "Rich broth with fresh noodles and toppings",
+    price: 13.99,
+    videoUrl: "/videos/ramen.mp4",
+    restaurant: "Noodle House"
+  },
+  {
+    id: 6,
+    title: "Street Tacos",
+    description: "Authentic Mexican street-style tacos",
+    price: 9.99,
+    videoUrl: "/videos/tacos.mp4",
+    restaurant: "Taco Corner"
+  },
+  {
+    id: 7,
+    title: "Biryani Special",
+    description: "Aromatic rice dish with spices and meat",
+    price: 15.99,
+    videoUrl: "/videos/biryani.webm",
+    restaurant: "Spice Paradise"
+  },
+  {
+    id: 8,
+    title: "Chocolate Cake",
+    description: "Rich and moist chocolate layer cake",
+    price: 7.99,
+    videoUrl: "/videos/cake.webm",
+    restaurant: "Sweet Factory"
+  },
+  {
+    id: 9,
+    title: "Carbonara Pasta",
+    description: "Classic Roman pasta with egg and pecorino",
+    price: 16.99,
+    videoUrl: "/videos/carbonara.webm",
+    restaurant: "Roma Cucina"
+  },
+  {
+    id: 10,
+    title: "Fresh Sushi Roll",
+    description: "Chef's special sushi rolls with fresh fish",
+    price: 19.99,
+    videoUrl: "/videos/sushi.webm",
+    restaurant: "Sushi Master"
+  }
 ];
 
 export default function Home() {
