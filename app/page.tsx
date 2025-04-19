@@ -25,7 +25,7 @@ const foodItems: FoodItem[] = [
     title: "Margherita Pizza",
     description: "Classic Italian pizza with fresh basil",
     price: 14.99,
-    videoUrl: "/videos/pizza.webm",
+    videoUrl: "https://res.cloudinary.com/dct5khv4h/video/upload/v1745033637/pizza_o341y8.mp4?_s=public-apps",
     restaurant: "Pizza Italia"
   },
   {
@@ -33,7 +33,7 @@ const foodItems: FoodItem[] = [
     title: "Dim Sum Platter",
     description: "Assorted steamed dumplings and buns",
     price: 18.99,
-    videoUrl: "/videos/dimsum.mp4",
+    videoUrl: "https://res.cloudinary.com/dct5khv4h/video/upload/v1745033636/dimsum_udmdtt.mp4?_s=public-apps",
     restaurant: "Golden Dragon"
   },
   {
@@ -41,7 +41,7 @@ const foodItems: FoodItem[] = [
     title: "Spicy Chicken",
     description: "Tender chicken with signature spicy sauce",
     price: 12.99,
-    videoUrl: "/videos/spicy-chicken.mp4",
+    videoUrl: "https://res.cloudinary.com/dct5khv4h/video/upload/v1745033637/chicken_lobgqz.mp4?_s=public-apps",
     restaurant: "Spice House"
   },
   {
@@ -49,7 +49,7 @@ const foodItems: FoodItem[] = [
     title: "Ramen Bowl",
     description: "Rich broth with fresh noodles and toppings",
     price: 13.99,
-    videoUrl: "/videos/ramen.mp4",
+    videoUrl: "https://res.cloudinary.com/dct5khv4h/video/upload/v1745033635/ramen_zaj42y.mp4?_s=public-apps",
     restaurant: "Noodle House"
   },
   {
@@ -57,7 +57,7 @@ const foodItems: FoodItem[] = [
     title: "Street Tacos",
     description: "Authentic Mexican street-style tacos",
     price: 9.99,
-    videoUrl: "/videos/tacos.mp4",
+    videoUrl: "https://res.cloudinary.com/dct5khv4h/video/upload/v1745033634/tacos_vh7ldh.mp4?_s=public-apps",
     restaurant: "Taco Corner"
   },
   {
@@ -65,7 +65,7 @@ const foodItems: FoodItem[] = [
     title: "Biryani Special",
     description: "Aromatic rice dish with spices and meat",
     price: 15.99,
-    videoUrl: "/videos/biryani.webm",
+    videoUrl: "https://res.cloudinary.com/dct5khv4h/video/upload/v1745033634/biryani_ntuoba.mp4?_s=public-apps",
     restaurant: "Spice Paradise"
   },
   {
@@ -73,7 +73,7 @@ const foodItems: FoodItem[] = [
     title: "Chocolate Cake",
     description: "Rich and moist chocolate layer cake",
     price: 7.99,
-    videoUrl: "/videos/cake.webm",
+    videoUrl: "https://res.cloudinary.com/dct5khv4h/video/upload/v1745033636/cake_p74ws4.mp4?_s=public-apps",
     restaurant: "Sweet Factory"
   },
   {
@@ -81,7 +81,7 @@ const foodItems: FoodItem[] = [
     title: "Carbonara Pasta",
     description: "Classic Roman pasta with egg and pecorino",
     price: 16.99,
-    videoUrl: "/videos/carbonara.webm",
+    videoUrl: "https://res.cloudinary.com/dct5khv4h/video/upload/v1745033635/latte_yrdolb.mp4?_s=public-apps",
     restaurant: "Roma Cucina"
   },
   {
@@ -89,8 +89,16 @@ const foodItems: FoodItem[] = [
     title: "Fresh Sushi Roll",
     description: "Chef's special sushi rolls with fresh fish",
     price: 19.99,
-    videoUrl: "/videos/sushi.webm",
+    videoUrl: "https://res.cloudinary.com/dct5khv4h/video/upload/v1745033638/sushi_r2itkj.mp4?_s=public-apps",
     restaurant: "Sushi Master"
+  },
+  {
+    id: 11,
+    title: "Premium Sushi Platter",
+    description: "Assortment of fresh nigiri and sashimi",
+    price: 24.99,
+    videoUrl: "https://res.cloudinary.com/dct5khv4h/video/upload/v1745033638/sushi_r2itkj.mp4?_s=public-apps",
+    restaurant: "Sushi Delight"
   }
 ];
 
