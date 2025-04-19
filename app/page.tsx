@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import Image from "next/image";
 import Link from 'next/link';
 import { useCart } from './hooks/useCart';
+import MobileWrapper from './components/MobileWrapper';
 
 interface FoodItem {
   id: number;
@@ -129,7 +130,7 @@ export default function Home() {
   }, [currentIndex]);
 
   return (
-    <main className="relative h-screen w-screen overflow-hidden bg-black">
+    <MobileWrapper>
       <div className="relative h-full w-full">
         <video
           ref={videoRef}
@@ -191,6 +192,6 @@ export default function Home() {
           </Link>
         )}
       </div>
-    </main>
+    </MobileWrapper>
   );
 }
